@@ -1,0 +1,24 @@
+#leftbox {
+	float:left; 
+	background: white;
+	width:35%;
+	height:140px;
+	text-align: right;
+	margin-bottom: 5px;
+}
+#middlebox{
+	float:left; 
+	background: white;
+	width:30%;
+	height:140px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#rightbox{
+	float:right;
+	background: white;
+	width:35%;
+	height:140px;
+	text-align: left;
+	margin-bottom: 5px;
+}

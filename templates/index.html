@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  <title>GC 1</title>
+  <meta name="description" content="This is Geiger Station 1">
+  
+</head>
+
+<body>
+  <!-- your content here... -->
+  <h1>welcome to dashboard</h1>
+  <div class="myDiv"></div>
+</body>
+
+<script src="https://cdn.plot.ly/plotly-2.9.0.min.js"></script>
+
+<script type="text/javascript">
+  
+  var a = {{arr}}
+  var b = {{brr}}
+  
+  var trace1 = {
+    x: a, 
+    y: b, 
+    type: 'scatter'
+  }
+  
+  Plotly.newPlot('myDiv', trace1);
+
+</script>
+
+</html>
